@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="Toll"
+		table="toll"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		<id
+			name="Id"
+			type="string"
+			column="TollId"
+		>
+			<generator class="assigned"/>
+		</id>
+
+		<property
+			name="TollName"
+			column="TollName"
+			type="string"
+			not-null="false"
+			length="80"
+		/>
+		<property
+			name="Description"
+			column="Description"
+			type="string"
+			not-null="false"
+			length="80"
+		/>
+		<property
+			name="StartDate"
+			column="StartDate"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="EndDate"
+			column="EndDate"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="SetupFee"
+			column="SetupFee"
+			type="java.lang.Double"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="PeriodBasicRate"
+			column="PeriodBasicRate"
+			type="java.lang.Double"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="BillingType"
+			column="BillingType"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="MonthAmount"
+			column="MonthAmount"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="DurationAmount"
+			column="DurationAmount"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="RatingPeriod"
+			column="RatingPeriod"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="ProviderId"
+			column="ProviderId"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<many-to-one name="Provider" column="ProviderId" class="Provider"
+			insert="false" update="false" lazy="false"></many-to-one>
+
+	</class>	
+</hibernate-mapping>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="Realm"
+		table="realm"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		<id
+			name="Id"
+			type="integer"
+			column="RealmId"
+		>
+			<generator class="identity"/>
+		</id>
+
+
+		<property
+			name="RealmName"
+			column="RealmName"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="OperName"
+			column="OperName"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="IpAddr"
+			column="IpAddr"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="AuthPort"
+			column="AuthPort"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="AcctPort"
+			column="AcctPort"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="NoStrip"
+			column="NoStrip"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="IsSuperRealm"
+			column="IsSuperRealm"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

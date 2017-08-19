@@ -1,0 +1,8 @@
+#Wed Aug 10 22:42:34 CST 2011
+eclipse.preferences.version=1
+encoding//WebRoot/admin/index.jsp=UTF-8
+encoding//WebRoot/admin/top.jsp=UTF-8
+encoding//WebRoot/admin_provider/index.jsp=UTF-8
+encoding//WebRoot/admin_provider/top.jsp=UTF-8
+encoding//src/com/fengfan/action/realm/RealmAction.properties=UTF-8
+encoding//src/struts.properties=UTF-8

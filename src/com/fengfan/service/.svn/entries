@@ -1,0 +1,211 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/src/com/fengfan/service
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-08-21T09:24:15.544385Z
+418
+yfzhang
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+IActiveCallService.java
+file
+
+
+
+
+2011-09-27T08:12:07.000000Z
+21007cc88ce37f3d09421dc54b73fa7f
+2011-07-19T14:47:20.105390Z
+306
+yfzhang
+
+ICustGroupService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+dcea9ddd148f344fa6138be5d3bbb3b8
+2011-07-16T08:50:55.284770Z
+293
+Feifan Yin
+
+ICustomerService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+ba1b8564205077d0c984033df9ec3463
+2011-07-24T09:24:15.084588Z
+343
+yfzhang
+
+IGatewayService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+d7f2edbaeeb84eb55a10a7a28df7fa9e
+2011-06-24T09:56:37.023049Z
+122
+Feifan Yin
+
+IGatewayTypeService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+9bd60aa1664dd4b0fc53dba8d85349a1
+2011-06-29T10:26:23.055205Z
+174
+Feifan Yin
+
+ILotService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+47f7bc7dc29fe358dc485eab9c7593c2
+2011-07-19T15:45:10.397341Z
+317
+yfzhang
+
+IPayRecordService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+2a6bdcd4200e022adf023c7f7489b691
+2011-08-01T16:00:06.019590Z
+396
+yfzhang
+
+IProviderService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+138e315a4e2da2b0eecfac83ca8d1c0b
+2011-07-03T06:44:54.699708Z
+236
+yfzhang
+
+IRealmService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+1d02bc779e4775f86aa98e2a1cfc25c9
+2011-06-23T07:12:44.388372Z
+113
+Feifan Yin
+
+ISearchService.java
+file
+
+
+
+
+2011-09-27T08:12:07.000000Z
+c5bdbd028cb0e91dec4d72e1fb32e65b
+2011-06-25T14:14:25.779239Z
+144
+yfzhang
+
+ISettleRecordService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+26799c5731b827dd32dc4ccd118143be
+2011-07-02T12:45:34.930059Z
+206
+yfzhang
+
+ISysLogService.java
+file
+
+
+
+
+2011-09-27T08:12:07.000000Z
+2168f44b8b7a99bd3bd656d0ca6aa3af
+2011-07-20T15:07:40.461230Z
+323
+yfzhang
+
+ITollService.java
+file
+
+
+
+
+2011-09-27T08:12:07.000000Z
+fda1c1c67df6ff051aaaa913aaaa7e13
+2011-07-19T14:47:20.105390Z
+306
+yfzhang
+
+IUdrService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+470c5f38b3bbe0722c991b0d4c87d176
+2011-07-02T13:24:15.956288Z
+212
+yfzhang
+
+IUsersService.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+f2b577a6049662585c688fd694d3e077
+2011-08-21T09:24:15.544385Z
+418
+yfzhang
+
+impl
+dir
+

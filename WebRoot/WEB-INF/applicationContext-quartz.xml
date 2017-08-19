@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+	<bean id="jobDetail_syncData" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass">
+			<value>com.fengfan.util.QuartzJob</value>
+		</property>
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="customerService">
+					<ref bean="customerService" />
+				</entry>
+				<entry key="tollService">
+					<ref bean="tollService" />
+				</entry>
+				<entry key="jdbcTemplate">
+					<ref bean="jdbcTemplate" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="cronTrigger_syncData" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="jobDetail_syncData" />
+		</property>
+		<property name="cronExpression">
+			<value>0 0 0 1 * ?</value>
+		</property>
+	</bean>
+
+
+	<bean id="scheduler_syncData"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="cronTrigger_syncData" />
+			</list>
+		</property>
+	</bean>
+</beans>

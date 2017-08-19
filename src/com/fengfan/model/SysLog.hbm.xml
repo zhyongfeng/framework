@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="SysLog"
+		table="sys_log"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		<id
+			name="Id"
+			type="integer"
+			column="LogId"
+		>
+			<generator class="identity"/>
+		</id>
+
+		<property
+			name="ProviderId"
+			column="ProviderId"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="ObjectName"
+			column="ObjectName"
+			type="string"
+			not-null="false"
+			length="40"
+		/>
+		
+		<property
+			name="ObjectId"
+			column="ObjectId"
+			type="string"
+			not-null="false"
+			length="40"
+		/>
+		
+		<property
+			name="LogType"
+			column="LogType"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="ExecUser"
+			column="ExecUser"
+			type="string"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="UpdateTime"
+			column="UpdateTime"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="Description"
+			column="Description"
+			type="string"
+			not-null="false"
+			length="80"
+		/>
+		<property
+			name="Remark"
+			column="Remark"
+			type="string"
+			not-null="false"
+			length="1000"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

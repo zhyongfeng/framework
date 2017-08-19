@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+    <package name="payRecord" extends="struts-default, json-default" >
+        <action name="payRecord_*" class="com.fengfan.action.payrecord.PayRecordAction" method="{1}">
+			<result name="list">/admin_provider/payrecord/payRecord_list.jsp</result>
+			<result name="edit">/admin_provider/payrecord/payRecord_edit.jsp</result>
+			<result name="input">/admin_provider/payrecord/payRecord_add.jsp</result>
+			<result name="add">/admin_provider/payrecord/payRecord_add.jsp</result>
+			<result name="view">/admin_provider/payrecord/payRecord_view.jsp</result>
+			<result name="redirect" type="redirect">payRecord_list.action</result>
+			<result name="redirect_customer" type="redirect">customer_list.action</result>
+        </action>
+    </package> 
+</struts>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.2//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="toll">
+    	<field-validator type="visitor" short-circuit="true">
+    		<param name="context">entity</param>
+    		<param name="appendPrefix">true</param>
+    		<message>资费策略</message>
+    	</field-validator>
+    </field>
+</validators>

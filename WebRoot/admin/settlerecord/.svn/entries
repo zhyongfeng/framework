@@ -1,0 +1,52 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/WebRoot/admin/settlerecord
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+settleRecord_add.jsp
+file
+
+
+
+
+2011-09-27T08:11:50.000000Z
+b2cf3f87bc25b4f10787edc15cb30c4d
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+settleRecord_edit.jsp
+file
+
+
+
+
+2011-09-27T08:11:50.000000Z
+0c3e5baaefafaafa8cddbddd06995781
+2011-07-02T12:45:34.930059Z
+206
+yfzhang
+

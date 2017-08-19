@@ -1,0 +1,40 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/WebRoot/js/themes
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-06-09T09:10:39.558403Z
+11
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+apple
+dir
+
+classic
+dir
+
+default
+dir
+
+default-rtl
+dir
+

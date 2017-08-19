@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="Lot"
+		table="lot"
+	>
+		<meta attribute="sync-DAO">true</meta>
+
+		<id
+			name="Id"
+			column="LotId"
+			type="integer"
+			length="11"
+		>
+		<generator class="assigned"/>
+		</id>
+		
+		<property
+			name="ProviderId"
+			column="ProviderId"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<many-to-one name="Provider" column="ProviderId" class="Provider" insert="false" update="false" lazy="false"></many-to-one>
+		<property
+			name="Amount"
+			column="Amount"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="Value"
+			column="Value"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="Duration"
+			column="Duration"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="IssueDate"
+			column="IssueDate"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="ExpDate"
+			column="ExpDate"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="ActiveDays"
+			column="ActiveDays"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="Status"
+			column="Status"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="Description"
+			column="Description"
+			type="string"
+			not-null="false"
+			length="30"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

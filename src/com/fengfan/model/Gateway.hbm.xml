@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="Gateway"
+		table="gateway"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		<id
+			name="Id"
+			type="string"
+			column="GatewayId"
+		>
+			<generator class="assigned"/>
+		</id>
+
+		<property
+			name="Domain"
+			column="Domain"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="IpAddr"
+			column="IpAddr"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="SecretKey"
+			column="SecretKey"
+			type="string"
+			not-null="false"
+			length="48"
+		/>
+		<property
+			name="GatewayName"
+			column="GatewayName"
+			type="string"
+			not-null="false"
+			length="40"
+		/>
+		<property
+			name="ProviderId"
+			column="ProviderId"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<many-to-one name="Provider" column="ProviderId" class="Provider" insert="false" update="false" lazy="false"/>
+		<property
+			name="Status"
+			column="Status"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="ProxyEnabled"
+			column="ProxyEnabled"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="IsPublic"
+			column="IsPublic"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="PortalUrl"
+			column="PortalUrl"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="InBandwidth"
+			column="InBandwidth"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="OutBandwidth"
+			column="OutBandwidth"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="GatewayTypeId"
+			column="GatewayTypeId"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<many-to-one name="GatewayType" column="GatewayTypeId" class="GatewayType" insert="false" update="false" lazy="false"/>
+		<property
+			name="Location"
+			column="Location"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+		<property
+			name="Longitude"
+			column="Longitude"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="Latitude"
+			column="Latitude"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

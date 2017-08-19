@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="SettleRecord"
+		table="settle_record"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		<id
+			name="Id"
+			type="integer"
+			column="SettleId"
+			length="11"
+		>
+			<generator class="identity"/>
+		</id>
+
+		<property
+			name="ProviderId"
+			column="ProviderId"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<many-to-one name="Provider" column="ProviderId" class="Provider" insert="false" update="false" lazy="false"/>
+		<property
+			name="StartDate"
+			column="StartDate"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="EndDate"
+			column="EndDate"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="SettleDate"
+			column="SettleDate"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="TotalFee"
+			column="TotalFee"
+			type="java.lang.Double"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="MarketFee"
+			column="MarketFee"
+			type="java.lang.Double"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="MgtFee"
+			column="MgtFee"
+			type="java.lang.Double"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="ActualFee"
+			column="ActualFee"
+			type="java.lang.Double"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="PayType"
+			column="PayType"
+			type="string"
+			not-null="false"
+			length="2"
+		/>
+		<property
+			name="IsInvoiced"
+			column="IsInvoiced"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="InvoiceName"
+			column="InvoiceName"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+		<property
+			name="Remark"
+			column="Remark"
+			type="string"
+			not-null="false"
+			length="60"
+		/>
+		<property
+			name="ExecUser"
+			column="ExecUser"
+			type="string"
+			not-null="false"
+			length="20"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

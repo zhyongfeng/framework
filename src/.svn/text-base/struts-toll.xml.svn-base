@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+	<package name="toll" extends="struts-default, json-default" >
+        <action name="toll_*" class="com.fengfan.action.toll.TollAction" method="{1}">
+			<result name="list">/admin_provider/toll/toll_list.jsp</result>
+			<result name="edit">/admin/toll/toll_edit.jsp</result>
+			<result name="input">/admin/toll/toll_add.jsp</result>
+			<result name="add">/admin/toll/toll_add.jsp</result>
+			<result name="redirect" type="redirect">toll_list.action</result>
+			<result name="view">/admin_provider/toll/toll_view.jsp</result>
+        </action>
+    </package> 
+</struts>

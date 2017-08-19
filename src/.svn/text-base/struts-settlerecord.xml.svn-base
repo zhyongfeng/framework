@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+    <package name="settleRecord" extends="struts-default, json-default" >
+        <action name="settleRecord_*" class="com.fengfan.action.settlerecord.SettleRecordAction" method="{1}">
+			<result name="list">/admin_provider/settlerecord/settleRecord_list.jsp</result>
+			<result name="edit">/admin/settlerecord/settleRecord_edit.jsp</result>
+			<result name="input">/admin/settlerecord/settleRecord_add.jsp</result>
+			<result name="add">/admin/settlerecord/settleRecord_add.jsp</result>
+			<result name="redirect" type="redirect">settleRecord_list.action</result>
+			<result name="view">/admin_provider/settlerecord/settleRecord_view.jsp</result>
+        </action>
+    </package> 
+</struts>

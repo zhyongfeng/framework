@@ -1,0 +1,232 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/src/com/fengfan/model/enums
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-09-27T04:10:05.389175Z
+419
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+BillingType.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+962f8ad5bd1878c7a25ec5b9c5704c42
+2011-07-03T08:02:25.259244Z
+243
+yfzhang
+
+BindingType.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+360b50553c9caeb54ec7cb7e9924c6a7
+2011-09-27T04:10:05.389175Z
+419
+Feifan Yin
+
+CustomerStatus.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+e0424925e78105f98d9330dabbd94b85
+2011-07-29T16:26:08.289695Z
+352
+yfzhang
+
+CustomerType.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+3095505014747deacf6606acec3e572d
+2011-06-23T14:24:50.423441Z
+116
+Feifan Yin
+
+GatewayStatus.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+c3063cffa298b57ba070a0fd1d99f8d2
+2011-06-29T08:58:20.266661Z
+173
+Feifan Yin
+
+GatewayUseType.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+c6fd7244571beb6f0dfba300b1a7c077
+2011-06-29T08:58:20.266661Z
+173
+Feifan Yin
+
+Gender.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+302f16a4cfee9d2df8d30a632a03bc65
+2011-06-24T08:06:36.403671Z
+118
+Feifan Yin
+
+IDicType.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+255fba378ffe17177c6140b58f9ea391
+2011-06-23T14:24:50.423441Z
+116
+Feifan Yin
+
+PayType.java
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+06bd8ed68b5504b60723e3c66eef15ea
+2011-07-03T08:02:25.259244Z
+243
+yfzhang
+
+ProviderStatus.java
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+334ab891d13066e4949481de56c0be28
+2011-06-25T14:14:25.779239Z
+144
+yfzhang
+
+ProviderType.java
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+3fb7c4de805b1d14b5281eaea16b0afd
+2011-06-23T14:24:50.423441Z
+116
+Feifan Yin
+
+RoamingFlag.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+f4f64f17718f82d50fe7570253f3cb81
+2011-08-01T15:53:56.403608Z
+392
+Feifan Yin
+
+SysLogType.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+dc0147d8af350a87609b9ef5aafe18e3
+2011-07-30T14:09:29.287485Z
+374
+yfzhang
+
+UdrType.java
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+a075dd86cea393aa312f85afc7f51c37
+2011-07-02T13:24:15.956288Z
+212
+yfzhang
+
+UserLevel.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+5aadf35439e54cfc1b80af8b6674e9f4
+2011-07-03T02:39:50.694528Z
+219
+Feifan Yin
+
+UserStatus.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+f70f8725702bbee642e6bf8fcaefa015
+2011-07-30T11:50:04.954346Z
+368
+yfzhang
+
+YesNoRadio.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+6ee3caf0d4d240a72648a4f56a90846d
+2011-07-02T10:48:03.978339Z
+204
+yfzhang
+

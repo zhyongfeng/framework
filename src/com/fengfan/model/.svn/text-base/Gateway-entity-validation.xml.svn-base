@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.2//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="id">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>编号是必填字段</message>
+    	</field-validator>
+    	<field-validator type="regex" short-circuit="true">
+			<param name="expression">^[\w@-]+$</param>
+			<message>编号只能为字符、数字、@, -, _的组合</message>
+		</field-validator>
+    </field>
+    <field name="gatewayName">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>名称是必填字段</message>
+    	</field-validator>
+    </field>
+    <field name="inBandwidth">
+		<field-validator type="int">
+			<param name="min">0</param>
+			<param name="max">65535</param>
+			<message>上行带宽必须是大于0的整数</message>
+		</field-validator>
+	</field>
+	<field name="outBandwidth">
+		<field-validator type="int">
+			<param name="min">0</param>
+			<param name="max">65535</param>
+			<message>下行带宽必须是大于0的整数</message>
+		</field-validator>
+	</field>
+    <field name="longitude">
+		<field-validator type="int">
+			<param name="min">-180</param>
+			<param name="max">180</param>
+			<message>经度必须是-180～180之间的整数</message>
+		</field-validator>
+	</field>
+	<field name="latitude">
+		<field-validator type="int">
+			<param name="min">-90</param>
+			<param name="max">90</param>
+			<message>纬度必须是-90～90之间的整数</message>
+		</field-validator>
+	</field>
+</validators>

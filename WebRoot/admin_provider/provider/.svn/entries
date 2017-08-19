@@ -1,0 +1,40 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/WebRoot/admin_provider/provider
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-07-30T15:22:12.973883Z
+380
+yfzhang
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+provider_view.jsp
+file
+
+
+
+
+2011-09-27T08:11:51.000000Z
+df7dbddc2613300b4678a953c98b9833
+2011-07-30T15:22:12.973883Z
+380
+yfzhang
+

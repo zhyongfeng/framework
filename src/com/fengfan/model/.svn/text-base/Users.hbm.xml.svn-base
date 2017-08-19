@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="Users"
+		table="users"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		<id
+			name="Username"
+			type="string"
+			column="username"
+		>
+			<generator class="assigned"/>
+		</id>
+
+		<property
+			name="Password"
+			column="password"
+			type="string"
+			not-null="true"
+			length="50"
+		/>
+		<property
+			name="Enabled"
+			column="enabled"
+			type="integer"
+			not-null="true"
+			length="1"
+		/>
+		<property
+			name="ProviderId"
+			column="ProviderId"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		
+		<many-to-one name="Provider" column="ProviderId" class="Provider"
+			insert="false" update="false" lazy="false"></many-to-one>
+			
+		<property
+			name="Email"
+			column="email"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="Description"
+			column="description"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		</class>	
+</hibernate-mapping>

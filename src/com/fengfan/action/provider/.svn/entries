@@ -1,0 +1,76 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/src/com/fengfan/action/provider
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-07-30T11:06:18.366872Z
+367
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+ProviderAction-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:09.000000Z
+be33289120dbe4606e2f37bb97c2a291
+2011-06-22T09:11:50.955017Z
+107
+Feifan Yin
+
+ProviderAction.java
+file
+
+
+
+
+2011-09-27T08:12:09.000000Z
+41e336a4ef2c39276d008951851a0151
+2011-07-30T11:06:18.366872Z
+367
+Feifan Yin
+
+ProviderAction.properties
+file
+
+
+
+
+2011-09-27T08:12:09.000000Z
+e2c69e84db4f49d609acc779b4fa1cfd
+2011-07-01T09:32:10.629988Z
+186
+Feifan Yin
+
+ProviderSearchCondition.java
+file
+
+
+
+
+2011-09-27T08:12:09.000000Z
+5756f56ade37fe6f34703ce3316aff3c
+2011-06-22T09:11:50.955017Z
+107
+Feifan Yin
+

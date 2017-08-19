@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+    <package name="provider" extends="struts-default, json-default" >
+		<action name="provider_*" class="com.fengfan.action.provider.ProviderAction" method="{1}">
+			<result name="list">/admin/provider/provider_list.jsp</result>
+			<result name="edit">/admin/provider/provider_edit.jsp</result>
+			<result name="input">/admin/provider/provider_add.jsp</result>
+			<result name="add">/admin/provider/provider_add.jsp</result>
+			<result name="view">/admin_provider/provider/provider_view.jsp</result>
+			<result name="redirect" type="redirect">provider_list.action</result>
+        </action>
+    </package>
+</struts>

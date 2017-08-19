@@ -1,0 +1,40 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/docs
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-08-09T15:53:45.374853Z
+411
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+ezwifi.sql
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+19259c08bee64c4e10deaea1a021e6ea
+2011-08-09T15:53:45.374853Z
+411
+Feifan Yin
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+    <package name="udr" extends="struts-default, json-default" >
+        <action name="udr_*" class="com.fengfan.action.udr.UdrAction" method="{1}">
+			<result name="list">/admin_provider/udr/udr_list.jsp</result>
+			<result name="view">/admin_provider/udr/udr_view.jsp</result>
+			<result name="redirect" type="redirect">udr_list.action</result>
+        </action>
+    </package> 
+</struts>

@@ -1,0 +1,40 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/WebRoot/META-INF
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-05-17T01:38:06.336461Z
+5
+yfzhang
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+MANIFEST.MF
+file
+
+
+
+
+2011-09-27T08:11:50.000000Z
+b10f37c8bb1803d98c127a01d1a71cc5
+2011-05-17T01:38:06.336461Z
+5
+yfzhang
+

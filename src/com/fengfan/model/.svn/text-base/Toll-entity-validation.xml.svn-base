@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.2//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="id">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>编号是必填字段</message>
+    	</field-validator>
+    	<field-validator type="regex" short-circuit="true">
+			<param name="expression">^\w+$</param>
+			<message>编号必须是字母或者数字的组合</message>
+		</field-validator>
+    </field>
+    <field name="tollName">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>资费名称是必填字段</message>
+    	</field-validator>
+    </field>
+    <field name="startDate">
+    	<field-validator type="required" short-circuit="true">
+    		<message>开始日期是必填字段</message>
+    	</field-validator>
+    </field>
+    <field name="setupFee">
+    	<field-validator type="double">
+			<param name="min">0</param>
+			<message>一次性费用是大于或等于0的数字</message>
+		</field-validator>
+    </field>
+    <field name="periodBasicRate">
+    	<field-validator type="double">
+			<param name="min">0</param>
+			<message>周期性基本费率是大于或等于0的数字</message>
+		</field-validator>
+    </field>
+    <field name="durationAmount">
+		<field-validator type="int">
+			<param name="min">1</param>
+			<param name="max">65535</param>
+			<message>时长必须是大于0的整数</message>
+		</field-validator>
+	</field>
+	<field name="monthAmount">
+		<field-validator type="int">
+			<param name="min">-1</param>
+			<param name="max">65535</param>
+			<message>月数必须是大于0的整数</message>
+		</field-validator>
+	</field>
+</validators>

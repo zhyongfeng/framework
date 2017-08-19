@@ -1,0 +1,148 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/.settings
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+.jsdtscope
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+8697e2ff5dc2a9c0db1c5e6dab4415bf
+2011-05-17T01:38:06.336461Z
+5
+yfzhang
+
+org.eclipse.core.resources.prefs
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+b2b5d92f664fd616213da43a2d6c2f87
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+org.eclipse.core.runtime.prefs
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+f02cd2ed00fa11e7ec940a93e32ff618
+2011-06-20T15:35:25.050015Z
+92
+Feifan Yin
+
+org.eclipse.jdt.core.prefs
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+067888b4ff4ac6afbb29b528fc231d69
+2011-06-25T14:15:05.636353Z
+147
+yfzhang
+
+org.eclipse.wst.common.component
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+4f89392102bd92f2e5d57528e886d7e7
+2011-05-17T01:38:06.336461Z
+5
+yfzhang
+
+org.eclipse.wst.common.project.facet.core.xml
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+1023dbb2c866e76161d3873fe7521bd5
+2011-06-10T21:30:45.737196Z
+13
+yfzhang
+
+org.eclipse.wst.jsdt.ui.superType.container
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+b27d1cf62dde4473bab7c433317bb0ce
+2011-05-17T01:38:06.336461Z
+5
+yfzhang
+
+org.eclipse.wst.jsdt.ui.superType.name
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+c89686a387d2b12b3c729ce35a0bcb5b
+2011-05-17T01:38:06.336461Z
+5
+yfzhang
+
+org.eclipse.wst.xsl.core.prefs
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+b7884b02fcd0291b63e84dfef8e659c5
+2011-06-20T12:27:29.267444Z
+91
+Feifan Yin
+
+org.hibernate.eclipse.console.prefs
+file
+
+
+
+
+2011-09-27T08:12:13.000000Z
+a13972616243938da93e7763e893d518
+2011-06-13T15:21:56.086658Z
+37
+Feifan Yin
+

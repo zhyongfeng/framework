@@ -1,0 +1,64 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/src/com/fengfan/action/settlerecord
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+SettleRecordAction-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:09.000000Z
+cf679b9dfee7bf8c74dcbba1584ae691
+2011-07-21T10:21:50.069133Z
+328
+Feifan Yin
+
+SettleRecordAction.java
+file
+
+
+
+
+2011-09-27T08:12:09.000000Z
+16998beda5a8c5ccb14ec4886b20086b
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+SettleRecordSearchCondition.java
+file
+
+
+
+
+2011-09-27T08:12:09.000000Z
+f7a0c6b2c3478cd406fed0c5cf5cab66
+2011-07-08T06:13:06.728724Z
+267
+Feifan Yin
+

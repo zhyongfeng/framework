@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+    <package name="gateway" extends="struts-default, json-default" >
+		<action name="gateway_*" class="com.fengfan.action.gatewaytype.GatewayAction" method="{1}">
+			<result name="list">/admin_provider/gateway/gateway_list.jsp</result>
+			<result name="edit">/admin/gateway/gateway_edit.jsp</result>
+			<result name="input">/admin/gateway/gateway_add.jsp</result>
+			<result name="add">/admin/gateway/gateway_add.jsp</result>
+			<result name="view">/admin_provider/gateway/gateway_view.jsp</result>
+			<result name="redirect" type="redirect">gateway_list.action</result>
+        </action>
+    </package> 
+</struts>

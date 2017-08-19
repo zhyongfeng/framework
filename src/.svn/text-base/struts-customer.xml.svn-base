@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+    <package name="customer" extends="struts-default, json-default" >
+		<action name="custGroup_*" class="com.fengfan.action.customer.CustGroupAction" method="{1}">
+			<result name="list">/admin_provider/customer/custGroup_list.jsp</result>
+			<result name="edit">/admin_provider/customer/custGroup_edit.jsp</result>
+			<result name="input">/admin_provider/customer/custGroup_add.jsp</result>
+			<result name="add">/admin_provider/customer/custGroup_add.jsp</result>
+			<result name="redirect" type="redirect">custGroup_list.action</result>
+       		<result name="view">/admin_provider/customer/custGroup_view.jsp</result>
+        </action>
+        <action name="customer_*" class="com.fengfan.action.customer.CustomerAction" method="{1}">
+			<result name="list">/admin_provider/customer/customer_list.jsp</result>
+			<result name="edit">/admin_provider/customer/customer_edit.jsp</result>
+			<result name="input">/admin_provider/customer/customer_add.jsp</result>
+			<result name="add">/admin_provider/customer/customer_add.jsp</result>
+			<result name="redirect" type="redirect">customer_list.action</result>
+        	<result name="view">/admin_provider/customer/customer_view.jsp</result>
+        	<result name="changePassword">/admin_provider/customer/customer_changePassword.jsp</result>
+        </action>
+        <action name="lot_*" class="com.fengfan.action.lot.LotAction" method="{1}">
+			<result name="list">/admin_provider/lot/lot_list.jsp</result>
+			<result name="edit">/admin/lot/lot_edit.jsp</result>
+			<result name="input">/admin/lot/lot_add.jsp</result>
+			<result name="add">/admin/lot/lot_add.jsp</result>
+			<result name="redirect" type="redirect">lot_list.action</result>
+			<result name="view">/admin_provider/lot/lot_view.jsp</result>
+        </action>
+    </package> 
+</struts>

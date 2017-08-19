@@ -1,0 +1,553 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/src/com/fengfan/model
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-09-27T04:10:05.389175Z
+419
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+ActiveCall.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+98b1b7502c3f33ed933109632e6b3934
+2011-08-01T09:25:58.115797Z
+385
+yfzhang
+
+ActiveCall.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+c29dd00b047a8bfbf48855863c097ac5
+2011-07-31T09:38:26.350465Z
+382
+yfzhang
+
+Authorities.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+b17f8a51ca11d8c7f44cb6233d386832
+2011-07-03T06:44:54.699708Z
+236
+yfzhang
+
+Authorities.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+d9e5a54b36884866fa0911d4b9a3b574
+2011-06-29T13:02:07.787958Z
+177
+yfzhang
+
+CustGroup-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+38e171ed01cdd8231ded7219812e468f
+2011-06-23T09:38:45.046906Z
+114
+Feifan Yin
+
+CustGroup.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+673e6426773e14d409b17decfa5fa200
+2011-07-19T15:01:39.313226Z
+313
+Feifan Yin
+
+CustGroup.java
+file
+
+
+
+
+2011-09-27T08:12:06.000000Z
+2c89228042130bb2bd7d2c0e43943e2c
+2011-07-19T15:01:39.313226Z
+313
+Feifan Yin
+
+Customer-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+43406296f181d405e08b6ed05dbcbdc0
+2011-08-01T10:14:59.890085Z
+388
+Feifan Yin
+
+Customer.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+c3dd0a78d798f37cc86e98957f99e59c
+2011-07-29T16:26:08.289695Z
+352
+yfzhang
+
+Customer.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+6c771587b9b4c88e2dc8040ae776d374
+2011-08-01T15:53:56.403608Z
+392
+Feifan Yin
+
+Gateway-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+d64467a4e0fa84545da199330be791fd
+2011-07-19T10:25:38.954402Z
+303
+Feifan Yin
+
+Gateway.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+fb3cdbc837f5babfa095aeba6e3ef840
+2011-07-29T15:35:33.805285Z
+351
+yfzhang
+
+Gateway.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+fcf53311a48d325b965b1d170f040582
+2011-07-28T15:33:13.752292Z
+348
+yfzhang
+
+GatewayType-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+951861718643f2a472f553885b14eb6e
+2011-06-22T10:33:27.581067Z
+110
+Feifan Yin
+
+GatewayType.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+d34a86c4a518234309c58caf779752bf
+2011-06-22T10:33:27.581067Z
+110
+Feifan Yin
+
+GatewayType.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+d038108ce512a22084ab10edcf314919
+2011-06-13T10:29:11.533106Z
+32
+Feifan Yin
+
+GroupAttr.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+fcfea8ba60a3d2f44568f01bda31e3d3
+2011-07-16T08:50:55.284770Z
+293
+Feifan Yin
+
+GroupAttr.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+300f6a8a8e32b17e4eca502f3d713891
+2011-07-16T08:50:55.284770Z
+293
+Feifan Yin
+
+Lot-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+64eb11749af845cedc10eca3dfead818
+2011-08-01T12:35:33.823321Z
+389
+yfzhang
+
+Lot.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+9df54d6c41889e660d95f7a4c4534dac
+2011-07-29T15:35:33.805285Z
+351
+yfzhang
+
+Lot.java
+file
+
+
+
+
+2011-09-27T08:12:06.000000Z
+e15388a88043fd3768b5df7afde1dd2e
+2011-07-29T15:35:33.805285Z
+351
+yfzhang
+
+PayRecord-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+8bc54fcaf45e43f6f251ae5e7a22b0e2
+2011-08-13T09:47:38.837164Z
+416
+yfzhang
+
+PayRecord.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+bf651d7be222d09e923af15a238f1b7d
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+PayRecord.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+513ae42572b91f4317b0599c404575ff
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+Provider-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+b0368f17fbe452dddb557f4853ac1105
+2011-07-29T15:35:33.805285Z
+351
+yfzhang
+
+Provider.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+86e07af1322a6d2ecf2a97e287d840c6
+2011-06-21T13:36:36.169896Z
+97
+yfzhang
+
+Provider.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+15549d4479420426fac61d4f486e60e7
+2011-06-23T14:24:50.423441Z
+116
+Feifan Yin
+
+Realm-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+6e68110da526b2a3d089eae16d21878b
+2011-07-02T07:47:37.547897Z
+202
+Feifan Yin
+
+Realm.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+47249243102acb59b3ab7119fce663dc
+2011-06-23T07:12:44.388372Z
+113
+Feifan Yin
+
+Realm.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+89b07f59403a25e48fde4f7e1b898f1c
+2011-07-03T07:46:10.230177Z
+242
+Feifan Yin
+
+SettleRecord-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+55aa146186e23ae36d22f84c897c3268
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+SettleRecord.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+7e0cc4624fc32f313bcf839ac2c767f8
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+SettleRecord.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+f306b2743c24d00f348501e7635b8662
+2011-07-29T17:08:51.646922Z
+354
+yfzhang
+
+SysLog.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+aa3ad471834e548b0605cfe40c3fa3e7
+2011-07-24T13:11:49.743815Z
+345
+yfzhang
+
+SysLog.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+8ba7331365378c59830d72bd078d1b30
+2011-07-30T14:09:29.287485Z
+374
+yfzhang
+
+Toll-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+0542e7210966bd5131d40e7187e9a49f
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+Toll.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+29ac9bbe91cf5a7b9e02fa2f4b3ce3ae
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+Toll.java
+file
+
+
+
+
+2011-09-27T08:12:04.000000Z
+e4a54769ed1e6fd1e7b4ee84019cb884
+2011-06-28T09:40:37.355189Z
+164
+Feifan Yin
+
+Udr.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+8f534cf6e10ca253a83c643d9e70a938
+2011-07-31T09:38:26.350465Z
+382
+yfzhang
+
+Udr.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+3130d7875414054957d28e51d6145f75
+2011-07-31T09:38:26.350465Z
+382
+yfzhang
+
+Users-entity-validation.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+09d53690a2c30262dc95ba7fd18a95b1
+2011-07-21T10:44:59.553166Z
+330
+Feifan Yin
+
+Users.hbm.xml
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+cf20fb6fe3b4a4300c5bdcc8b828ec50
+2011-07-30T11:50:04.954346Z
+368
+yfzhang
+
+Users.java
+file
+
+
+
+
+2011-09-27T08:12:03.000000Z
+8c30130166a4a5640784c4c9096287ea
+2011-07-30T11:50:04.954346Z
+368
+yfzhang
+
+base
+dir
+
+dao
+dir
+
+enums
+dir
+

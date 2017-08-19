@@ -1,0 +1,88 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/src/com/fengfan/common/util
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+Constants.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+f2168e25eb24e15ba0c2f3ab85f7b477
+2011-08-01T15:53:56.403608Z
+392
+Feifan Yin
+
+FengfanDateConverter.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+94f076a9e7e5b1fda4826bbf7af6ba94
+2011-07-30T10:42:12.151009Z
+365
+Feifan Yin
+
+FengfanDoubleConverter.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+1eb02f1bd3124307968f0da7b5039384
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+FengfanIntegerConverter.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+0412c5ff5947682c503f00174cb7512c
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+PaginationSupport.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+2b82bc55be56fcaa3bfe94ba2081834e
+2011-06-11T15:32:55.008083Z
+24
+yfzhang
+

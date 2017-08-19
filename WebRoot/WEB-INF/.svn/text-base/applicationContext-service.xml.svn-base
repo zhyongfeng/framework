@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="validateName" class="com.fengfan.common.bean.ValidateName">
+	<property name="usersService">
+		<ref bean="usersService"/>
+	</property>
+</bean>
+
+
+<bean id="providerService" class="com.fengfan.service.impl.ProviderServiceImpl">
+	<property name="providerDAO">
+		<ref bean="providerDAO"/>
+	</property>
+	<property name="usersDAO">
+		<ref bean="usersDAO"/>
+	</property>
+	<property name="authoritiesDAO">
+		<ref bean="authoritiesDAO"/>
+	</property>
+</bean>
+
+<bean id="gatewayTypeService" class="com.fengfan.service.impl.GatewayTypeServiceImpl">
+	<property name="gatewayTypeDAO">
+		<ref bean="gatewayTypeDAO"/>
+	</property>
+</bean>
+<bean id="gatewayService" class="com.fengfan.service.impl.GatewayServiceImpl">
+	<property name="gatewayDAO">
+		<ref bean="gatewayDAO"/>
+	</property>
+</bean>
+<bean id="custGroupService" class="com.fengfan.service.impl.CustGroupServiceImpl">
+	<property name="custGroupDAO">
+		<ref bean="custGroupDAO"/>
+	</property>
+	<property name="groupAttrDAO">
+		<ref bean="groupAttrDAO"/>
+	</property>
+</bean>
+
+<bean id="customerService" class="com.fengfan.service.impl.CustomerServiceImpl">
+	<property name="customerDAO">
+		<ref bean="customerDAO"/>
+	</property>
+	<property name="jdbcTemplate">
+		<ref bean="jdbcTemplate"/>
+	</property>
+</bean>
+
+
+<bean id="tollService" class="com.fengfan.service.impl.TollServiceImpl">
+	<property name="tollDAO">
+		<ref bean="tollDAO"/>
+	</property>
+</bean>
+
+<bean id="lotService" class="com.fengfan.service.impl.LotServiceImpl">
+	<property name="lotDAO">
+		<ref bean="lotDAO"/>
+	</property>
+	<property name="customerDAO">
+		<ref bean="customerDAO"/>
+	</property>
+</bean>
+
+<bean id="realmService" class="com.fengfan.service.impl.RealmServiceImpl">
+	<property name="realmDAO">
+		<ref bean="realmDAO"/>
+	</property>
+</bean>
+
+<bean id="sysLogService" class="com.fengfan.service.impl.SysLogServiceImpl">
+	<property name="sysLogDAO">
+		<ref bean="sysLogDAO"/>
+	</property>
+</bean>
+<bean id="payRecordService" class="com.fengfan.service.impl.PayRecordServiceImpl">
+	<property name="payRecordDAO">
+		<ref bean="payRecordDAO"/>
+	</property>
+	<property name="jdbcTemplate">
+		<ref bean="jdbcTemplate"/>
+	</property>
+</bean>
+<bean id="settleRecordService" class="com.fengfan.service.impl.SettleRecordServiceImpl">
+	<property name="settleRecordDAO">
+		<ref bean="settleRecordDAO"/>
+	</property>
+</bean>
+<bean id="udrService" class="com.fengfan.service.impl.UdrServiceImpl">
+	<property name="udrDAO">
+		<ref bean="udrDAO"/>
+	</property>
+</bean>
+<bean id="activeCallService" class="com.fengfan.service.impl.ActiveCallServiceImpl">
+	<property name="activeCallDAO">
+		<ref bean="activeCallDAO"/>
+	</property>
+</bean>
+</beans>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.2//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="ipAddr">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>IP地址是必填字段</message>
+    	</field-validator>
+    	<field-validator type="regex" short-circuit="true">
+			<param name="expression">^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$</param>
+			<message>IP地址格式不正确</message>
+		</field-validator>
+    </field>
+    <field name="realmName">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>漫游域名是必填字段</message>
+    	</field-validator>
+    </field>
+    <field name="operName">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>名称是必填字段</message>
+    	</field-validator>
+    </field>
+    <field name="acctPort">
+    	<field-validator type="int">
+			<param name="min">1</param>
+			<param name="max">65535</param>
+			<message>计费端口号应为1～65535之间的整数</message>
+		</field-validator>
+    </field>
+    <field name="authPort">
+    	<field-validator type="int">
+			<param name="min">1</param>
+			<param name="max">65535</param>
+			<message>认证端口号应为1～65535之间的整数</message>
+		</field-validator>
+    </field>
+</validators>

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="Provider"
+		table="provider"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		<id
+			name="Id"
+			type="string"
+			column="ProviderId"
+		>
+			<generator class="assigned"/>
+		</id>
+
+		<property
+			name="ProviderName"
+			column="ProviderName"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="ProviderType"
+			column="ProviderType"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="MaxUser"
+			column="MaxUser"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="MaxGateway"
+			column="MaxGateway"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="Status"
+			column="Status"
+			type="integer"
+			not-null="false"
+			length="11"
+		/>
+		<property
+			name="ContactName"
+			column="ContactName"
+			type="string"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="Email"
+			column="Email"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="Phone"
+			column="Phone"
+			type="string"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="Fax"
+			column="Fax"
+			type="string"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="Mobile"
+			column="Mobile"
+			type="string"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="CreateTime"
+			column="CreateTime"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="LastUpdateTime"
+			column="LastUpdateTime"
+			type="timestamp"
+			not-null="false"
+			length="19"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

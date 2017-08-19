@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="GroupAttr"
+		table="group_attr"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		
+		<id
+			name="Id"
+			type="integer"
+			column="AttrId"
+		>
+			<generator class="identity"/>
+		</id>
+		
+		<property
+			name="GroupId"
+			column="GroupId"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		
+		<property
+			name="AttrName"
+			column="AttrName"
+			type="string"
+			not-null="true"
+			length="50"
+		/>
+		
+		<property
+			name="AttrValue"
+			column="AttrValue"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+		<property
+			name="AttrDesc"
+			column="AttrDesc"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+
+	</class>	
+</hibernate-mapping>

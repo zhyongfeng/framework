@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+	<constant name="struts.ui.theme" value="fengfan" /> 
+  	<constant name="struts.ui.templateDir" value="template" /> 
+
+	<include file="struts-customer.xml"></include>
+	<include file="struts-admin.xml"></include>
+	<include file="struts-realm.xml"></include>
+	<include file="struts-provider.xml"></include>
+	<include file="struts-gateway.xml"></include>
+	<include file="struts-gatewaytype.xml"></include>
+	<include file="struts-toll.xml"></include>
+	<include file="struts-payrecord.xml"></include>
+	<include file="struts-settlerecord.xml"></include>
+	<include file="struts-udr.xml"></include>
+	<include file="struts-activecall.xml"></include>
+	<package name="user_curd" extends="struts-default, json-default" >
+		<global-results>
+			<!-- 下面定义的结果对所有的Action都有效 -->
+		    <result name="exception">/error.jsp</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<!-- 指Action抛出Exception异常时，转入名为exception的结果。 -->
+			<exception-mapping exception="java.lang.Exception" result="exception"/>
+		</global-exception-mappings>
+
+    </package> 
+			
+</struts>

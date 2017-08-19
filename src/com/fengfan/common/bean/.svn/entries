@@ -1,0 +1,40 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/src/com/fengfan/common/bean
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-06-29T13:02:07.787958Z
+177
+yfzhang
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+ValidateName.java
+file
+
+
+
+
+2011-09-27T08:12:08.000000Z
+e74bd88ebc54b778fa20e30d9d1f672d
+2011-06-29T13:02:07.787958Z
+177
+yfzhang
+

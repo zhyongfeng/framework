@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fengfan.model">
+	<class
+		name="GatewayType"
+		table="gateway_type"
+	>
+		<meta attribute="sync-DAO">true</meta>
+		<id
+			name="Id"
+			type="string"
+			column="GatewayTypeId"
+		>
+			<generator class="assigned"/>
+		</id>
+
+		<property
+			name="Manufactory"
+			column="Manufactory"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="Model"
+			column="Model"
+			type="string"
+			not-null="false"
+			length="5"
+		/>
+		<property
+			name="Description"
+			column="Description"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

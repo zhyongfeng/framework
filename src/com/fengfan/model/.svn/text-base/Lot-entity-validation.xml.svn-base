@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.2//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="id">
+		<field-validator type="required" short-circuit="true">
+    		<message>批次号是必填字段</message>
+    	</field-validator>
+		<field-validator type="int">
+			<param name="min">0</param>
+			<param name="max">9999</param>
+			<message>批次号必须是介于0和9999之间的整数</message>
+		</field-validator>
+	</field>
+	<field name="activeDays">
+		<field-validator type="required" short-circuit="true">
+    		<message>有效天数是必填字段</message>
+    	</field-validator>
+		<field-validator type="int">
+			<param name="min">0</param>
+			<param name="max">65535</param>
+			<message>有效天数必须是大于或者等于0的整数</message>
+		</field-validator>
+	</field>
+	<field name="duration">
+		<field-validator type="required" short-circuit="true">
+    		<message>上网时长是必填字段</message>
+    	</field-validator>
+		<field-validator type="int">
+			<param name="min">0</param>
+			<param name="max">65535</param>
+			<message>上网时长必须是大于或者等于0的整数</message>
+		</field-validator>
+	</field>
+	<field name="amount">
+		<field-validator type="required" short-circuit="true">
+    		<message>面值是必填字段</message>
+    	</field-validator>
+		<field-validator type="int">
+			<param name="min">1</param>
+			<param name="max">100</param>
+			<message>面值必须是大于0整数</message>
+		</field-validator>
+	</field>
+</validators>

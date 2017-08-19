@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.2//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="Id">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>编号是必填字段</message>
+    	</field-validator>
+    	<field-validator type="regex" short-circuit="true">
+			<param name="expression">^\w+$</param>
+			<message>编号必须是字母或者数字的组合</message>
+		</field-validator>
+    </field>
+</validators>

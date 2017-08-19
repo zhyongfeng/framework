@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.2//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="providerId">
+    	<field-validator type="requiredstring" short-circuit="true">
+    		<message>运营商必填选择</message>
+    	</field-validator>
+    </field>
+    <field name="startDate">
+    	<field-validator type="required" short-circuit="true">
+    		<message>开始日期是必填字段</message>
+    	</field-validator>
+    </field>
+    <field name="endDate">
+    	<field-validator type="required" short-circuit="true">
+    		<message>结束日期是必填字段</message>
+    	</field-validator>
+    </field>
+    <field name="totalFee">
+    	<field-validator type="required" short-circuit="true">
+    		<message>总金额必填填写</message>
+    	</field-validator>
+		<field-validator type="double">
+			<param name="min">0</param>
+			<message>总金额必须是整数</message>
+		</field-validator>
+	</field>
+	<field name="marketFee">
+		<field-validator type="required" short-circuit="true">
+    		<message>市场推广费必填填写</message>
+    	</field-validator>
+		<field-validator type="double">
+			<param name="min">0</param>
+			<message>市场推广费必须是整数</message>
+		</field-validator>
+	</field>
+	<field name="mgtFee">
+		<field-validator type="required" short-circuit="true">
+    		<message>收费管理费必填填写</message>
+    	</field-validator>
+		<field-validator type="double">
+			<param name="min">0</param>
+			<message>收费管理费必须是整数</message>
+		</field-validator>
+	</field>
+</validators>

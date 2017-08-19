@@ -1,0 +1,424 @@
+8
+
+dir
+419
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment/trunk/framework/src/com/fengfan/model/base
+svn+ssh://yfzhang@dev.douhuacun.com/var/svn/sanheinvestment
+
+
+
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f83531a5-1002-4cbe-888b-aa350675b128
+
+BaseActiveCall.java
+file
+
+
+
+
+2012-02-28T09:08:00.000000Z
+488545cf8195c5a75055f42b3780ef7b
+2011-08-01T09:25:58.115797Z
+385
+yfzhang
+
+BaseActiveCallDAO.java
+file
+
+
+
+
+2012-02-28T09:08:01.000000Z
+529f9fe495e5434596425ead8683735a
+2011-07-29T16:26:08.289695Z
+352
+yfzhang
+
+BaseAuthorities.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+2ffd117dcf7c12dce2c52db44e6aff43
+2011-07-03T06:44:54.699708Z
+236
+yfzhang
+
+BaseAuthoritiesDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+864cb0ba0f7606451eb7f95af446ae0a
+2011-07-19T14:47:20.105390Z
+306
+yfzhang
+
+BaseCustGroup.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+7ed09f04b374852c2edd34a0b39c83a1
+2011-07-16T08:50:55.284770Z
+293
+Feifan Yin
+
+BaseCustGroupDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+92212484da3a7c11a59fc915e7cf260d
+2011-07-19T14:47:20.105390Z
+306
+yfzhang
+
+BaseCustomer.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+0ef36866870ae8e838cec584dca34eac
+2011-07-29T16:26:08.289695Z
+352
+yfzhang
+
+BaseCustomerDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+8873e7635eafad528044225c55c617bc
+2011-07-29T15:35:33.805285Z
+351
+yfzhang
+
+BaseGateway.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+53eab57209bf3b562b2bed8217532795
+2011-07-19T10:25:38.954402Z
+303
+Feifan Yin
+
+BaseGatewayDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+2b1ce23acd1ba877b8f3fb19322fc4c1
+2011-07-19T10:25:38.954402Z
+303
+Feifan Yin
+
+BaseGatewayType.java
+file
+
+
+
+
+2011-09-27T08:12:06.000000Z
+69d8d7ae8460bfecd80f183a173d67b1
+2011-06-13T10:29:11.533106Z
+32
+Feifan Yin
+
+BaseGatewayTypeDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+6e03e7b4ec9689d110af37f096d23a51
+2011-06-25T14:14:25.779239Z
+144
+yfzhang
+
+BaseGroupAttr.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+819746c64e0d4c1486d6da9ea4db48f3
+2011-07-16T08:50:55.284770Z
+293
+Feifan Yin
+
+BaseGroupAttrDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+8c3f7e05a11b096b6eb1b2e6c67f9ce1
+2011-07-19T14:47:20.105390Z
+306
+yfzhang
+
+BaseLot.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+bc877e180e80a8327a54bb8271266052
+2011-07-03T07:46:10.230177Z
+242
+Feifan Yin
+
+BaseLotDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+98c3d4e5769cb45a00a34a20f2fa7197
+2011-06-25T14:14:25.779239Z
+144
+yfzhang
+
+BasePayRecord.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+872e8d250290929b082b04aeabd49465
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+BasePayRecordDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+6a993a1205dd1ae2687832d9b36ceafe
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+BaseProvider.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+ddfd40f6f3c973ed9b5100ea8932ef96
+2011-06-19T02:16:26.436655Z
+60
+Feifan Yin
+
+BaseProviderDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+5e80930fa98328cba35f8e89907b85da
+2011-06-25T14:14:25.779239Z
+144
+yfzhang
+
+BaseRealm.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+4fa235149062ddabee48f52ae6feb8f9
+2011-06-23T07:12:44.388372Z
+113
+Feifan Yin
+
+BaseRealmDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+c50ab7ee4c56cb47e24da7c44a39def3
+2011-06-25T14:14:25.779239Z
+144
+yfzhang
+
+BaseSettleRecord.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+e3e83ae3aa8664c571af07deddd7902c
+2011-08-10T15:00:44.916504Z
+414
+Feifan Yin
+
+BaseSettleRecordDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+25ce54657712f6736bcd8664047c208a
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+BaseSysLog.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+a9a1087f46921b958c358c8db062933f
+2011-07-24T13:11:49.743815Z
+345
+yfzhang
+
+BaseSysLogDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+92a89ac93ac76c592bbd46ecc093e337
+2011-07-20T15:07:40.461230Z
+323
+yfzhang
+
+BaseToll.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+c6f684a8f3689526d77f82518fdb050e
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+BaseTollDAO.java
+file
+
+
+
+
+2011-09-27T08:12:06.000000Z
+5ec6bd70985e86fca926b38e3174230c
+2011-08-09T15:52:55.446215Z
+410
+Feifan Yin
+
+BaseUdr.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+2f7f743cea8df36ec9a0dd6fd3859904
+2011-07-31T09:38:26.350465Z
+382
+yfzhang
+
+BaseUdrDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+82a2bbf63e93754347e3f39d799cb4b3
+2011-07-29T16:26:08.289695Z
+352
+yfzhang
+
+BaseUsers.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+92771717edc83a08ce93e69e712f3a22
+2011-07-30T11:50:04.954346Z
+368
+yfzhang
+
+BaseUsersDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+f464bb3a12ebf152c5b3934aa86dbaf7
+2011-07-30T11:50:04.954346Z
+368
+yfzhang
+
+_BaseRootDAO.java
+file
+
+
+
+
+2011-09-27T08:12:05.000000Z
+a8113a1ce311d68cb8b8f56f0b53360f
+2011-07-20T10:35:32.835092Z
+319
+Feifan Yin
+
